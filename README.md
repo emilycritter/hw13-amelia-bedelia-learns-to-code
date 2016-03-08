@@ -18,6 +18,6 @@ So in the spirit of cherishing mistakes, here's the number one mistake and lesso
 * Mistake: Git sucks
   * It took a couple of weeks for me to understand that git (and github in particular) is my friend. 
   * After finishing an assignment, I'd `git init` `git add .` `git commit -m "Initial commit"` `git push origin master` my entire project with one go. 
-  * On lab 2, I pushed to a branch on github and thought I lost my whole project since it wasn't visible in the master. Super silly looking back, but utter panic at the time. 
+  * On lab 2, I pushed to a branch on github then `git pull origin master` and thought I lost my whole project since it wasn't visible in my local directory or in the github master. Super silly looking back, but utter panic at the time. 
   * That experience not only forced me to read more about git and how branching works, but it also worked to encourage me to commit smaller chunks of code throughout the course of a project. 
   * As a result, I moved from "git is a big scary code-deleting monster" to "'small commits often' allows me to revert back to previous code at any time". Lessons learned.
